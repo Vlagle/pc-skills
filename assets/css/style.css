@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.art {
+  
+  text-align: center;
+  
+}
+
+.img_logo{
+    max-width: 45%;
+    
+}
+
+.container {
+  display: grid;
+  margin-top: 20px;
+  
+  
+  grid-gap: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  grid-template-areas: 
+                       "a1 a2 a3"
+                       ; 
+}
+
+.container  a {
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 12px 5px;
+
+}
+.art.first { grid-area: a1; }
+.art.second { grid-area: a2; }
+.art.third { grid-area: a3; }
+
+
+
+@media only screen and (max-width: 600px) {
+    .img_logo{
+        max-width: 80%;
+    }
+    
+  .container {
+      
+      margin: 0 auto;
+      margin-right: 20px;
+      margin-left: 20px;
+    grid-template-areas: 
+                         "a1"
+                         "a2"
+                         "a3"
+                         ;
+  }
+}
