@@ -1,6 +1,6 @@
-
+/*Шапка*/
 body{
-    font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .art {
   
@@ -9,31 +9,41 @@ body{
 }
 
 .img_logo{
-    max-width: 45%;
+    max-width: 60%;
     
+}
+.header{
+  background-color: #F9F9F9;
+  
+  margin-top: 0;
 }
 
 .container {
   display: grid;
-  margin-top: 20px;
+  
   
   
   grid-gap: 10px;
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 26%;
   grid-template-areas: 
                        "a1 a2 a3"
                        ; 
 }
 
-.container  a {
+.txt_a {
     display: block;
     height: 30px;
-    font-size: 20px;
+    font-size: 24px;
     color: #000000;
     text-decoration: none;
-    padding: 10px 12px 5px;
+    padding: 13px 12px 13px;
 
+}
+.txt_a:hover{
+  font-weight: 700;
+  color: #4D3BFE;
+  background-color: #F2F2F2;
 }
 .art.first { grid-area: a1; }
 .art.second { grid-area: a2; }
@@ -57,4 +67,34 @@ body{
                          "a3"
                          ;
   }
+}
+/*конец шапки*/
+
+/*главная страница*/
+.title_c{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 40px;
+}
+.content{
+  margin-left: 50vh;
+  margin-right: 50vh;
+  
+}
+
+.des_title{
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.link_k{
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 25;
+
+}
+.link_k:hover{
+  color: #4D3BFE;
 }
