@@ -9,7 +9,11 @@ body{
 }
 
 .img_logo{
-    max-width: 60%;
+   /* max-width: 60%;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 275px;
+    
     
 }
 .header{
@@ -30,6 +34,8 @@ body{
                        "a1 a2 a3"
                        ; 
 }
+
+
 
 .txt_a {
     display: block;
@@ -54,16 +60,17 @@ body{
 
 /*конец шапки*/
 
-/*главная страница*/
+/*Страницы оглавления*/
 .title_c{
   font-weight: 700;
   font-size: 35px;
   text-align: center;
   margin-top: 40px;
+  
 }
 .content{
-  margin-left: 50vh;
-  margin-right: 50vh;
+  max-width: 930px;
+  margin: 0 auto;
   
 }
 
@@ -77,18 +84,59 @@ body{
   color: #000;
   font-weight: 700;
   font-size: 25;
+  text-decoration: underline;
+  text-decoration-color: #4D3BFE;
 
 }
 .link_k:hover{
   color: #4D3BFE;
 }
+.p_1{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.p_1_1{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  text-decoration-color: #4D3BFE;
+}
+.p_1_1:hover{
+  color: #4D3BFE;
+}
+.p_2{
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+  .img_logo{
+    /* max-width: 60%;*/
+     margin-top: 5px;
+     margin-bottom: 5px;
+     max-width: 200px;
+     
+     
+ }
+}
+
+
 
 @media screen and (max-width: 500px) {
   .content{
     margin-left: 1vh;
     margin-right: 1vh;
   }
-  .img_logo{
+.img_logo{
     max-width: 80%;
 }
 
