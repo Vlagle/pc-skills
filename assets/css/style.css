@@ -51,23 +51,7 @@ body{
 
 
 
-@media only screen and (max-width: 600px) {
-    .img_logo{
-        max-width: 80%;
-    }
-    
-  .container {
-      
-      margin: 0 auto;
-      margin-right: 20px;
-      margin-left: 20px;
-    grid-template-areas: 
-                         "a1"
-                         "a2"
-                         "a3"
-                         ;
-  }
-}
+
 /*конец шапки*/
 
 /*главная страница*/
@@ -98,3 +82,53 @@ body{
 .link_k:hover{
   color: #4D3BFE;
 }
+
+@media screen and (max-width: 500px) {
+  .content{
+    margin-left: 1vh;
+    margin-right: 1vh;
+  }
+  .img_logo{
+    max-width: 80%;
+}
+
+.content{
+  margin-left: 0.5vh;
+  margin-right: 0.5vh;
+}
+  
+.container {
+    
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  grid-template-areas: 
+                       "a1"
+                       "a2"
+                       "a3"
+                       ;
+}
+}
+
+/*@media only screen and (max-width: 600px) {
+.img_logo{
+    max-width: 80%;
+}
+
+.content{
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+  
+.container {
+    
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  grid-template-areas: 
+                       "a1"
+                       "a2"
+                       "a3"
+                       ;
+}
+}*/
