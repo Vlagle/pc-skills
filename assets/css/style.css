@@ -85,6 +85,13 @@ body{
   font-size: 18px;
 }
 
+.ist{
+  color: #666699;
+  font-size: 15px;
+  text-decoration-line: underline;
+  text-decoration: #666699;
+}
+
 .link_k{
   text-decoration: none;
   color: #000;
