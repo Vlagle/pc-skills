@@ -95,6 +95,11 @@ body{
   display: block;
 }
 
+.sp_t{
+  font-weight: 700;
+  font-size: 22px;
+}
+
 .link_k{
   text-decoration: none;
   color: #000;
@@ -144,6 +149,17 @@ body{
   margin-top: 20px;
 }
 
+blockquote {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  padding: 14px 14px 14px;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 4px;
+  background: #fff9cd;
+  box-shadow: 0 1px 15px rgb(0 0 0 / 10%);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 .img{
   display: block;
   max-width: 100%;
