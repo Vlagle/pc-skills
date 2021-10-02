@@ -83,13 +83,16 @@ body{
 .ul_t{
   line-height: 1.6;
   font-size: 18px;
+
 }
 
 .ist{
   color: #666699;
   font-size: 15px;
   text-decoration-line: underline;
-  text-decoration: #666699;
+  
+  text-align: right;
+  display: block;
 }
 
 .link_k{
