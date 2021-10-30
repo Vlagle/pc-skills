@@ -56,7 +56,7 @@ body{
 .art.third { grid-area: a3; }
 
 .yout_2{
-  visibility: hidden;
+  
     display: none;
 }
 
