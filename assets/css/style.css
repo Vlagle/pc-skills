@@ -186,6 +186,7 @@ blockquote {
 
 
 
+
 @media screen and (max-width: 500px) {
   .content{
     margin-left: 1vh;
@@ -193,6 +194,11 @@ blockquote {
   }
 .img_logo{
     max-width: 80%;
+}
+
+.yout_1{
+  visibility: hidden;
+    display: none;
 }
 
 .content{
