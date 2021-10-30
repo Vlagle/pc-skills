@@ -55,7 +55,10 @@ body{
 .art.second { grid-area: a2; }
 .art.third { grid-area: a3; }
 
-
+.yout_2{
+  visibility: hidden;
+    display: none;
+}
 
 
 /*конец шапки*/
