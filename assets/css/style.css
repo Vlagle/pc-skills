@@ -47,7 +47,7 @@ body{
 
 }
 .txt_a:hover{
-  font-weight: 700;
+  /*font-weight: 700;*/
   color: #4D3BFE;
   background-color: #F2F2F2;
 }
@@ -55,15 +55,17 @@ body{
 .art.second { grid-area: a2; }
 .art.third { grid-area: a3; }
 
-.yout_2{
-  
-    display: none;
-}
+
 
 
 /*конец шапки*/
 
 /*Страницы оглавления*/
+.yout_2{
+  
+  display: none;
+}
+
 .title_c{
   font-weight: 700;
   font-size: 35px;
