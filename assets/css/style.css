@@ -36,11 +36,8 @@ body{
   grid-gap: 10px;
   margin-left: 15%;
   margin-right: 15%;
-  grid-template-areas: 
-                       "a1 a2 a3"
-                       ; 
+  grid-template-areas: "a1 a2 a3"; 
 }
-
 
 
 .txt_a {
@@ -57,6 +54,7 @@ body{
   color: #275cde;
   background-color: #F2F2F2;
 }
+
 .art.first { grid-area: a1; }
 .art.second { grid-area: a2; }
 .art.third { grid-area: a3; }
@@ -203,8 +201,10 @@ blockquote {
 
  }
  .content{
-  margin-left: 2vh;
-  margin-right: 2vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  /* margin-left: 2vh;
+  margin-right: 2vh; */
 }
 }
 
@@ -215,10 +215,17 @@ blockquote {
   .header {
     height: 100%;
   }
-  .content{
-    margin-left: 1vh;
-    margin-right: 1vh;
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+      margin: 0 auto;
+      margin-right: 20px;
+      margin-left: 20px;
+    grid-template-areas:"a1" "a2" "a3"  ;
   }
+  .content{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    }
 .img_logo{
     max-width: 60%;
 }
@@ -241,17 +248,7 @@ blockquote {
   padding: 10px 0px 10px;
 }
   
-.container {
-  grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
-    margin-right: 20px;
-    margin-left: 20px;
-  grid-template-areas: 
-                       "a1"
-                       "a2"
-                       "a3"
-                       ;
-}
+
 }
 
 /*@media only screen and (max-width: 600px) {
